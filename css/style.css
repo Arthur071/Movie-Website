@@ -15,7 +15,7 @@ body{
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
     
@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(229, 229, 229);
 }
 
 nav ul li a:hover {
@@ -45,12 +45,52 @@ nav ul li a:hover {
 .left {
     font-size: 1.7rem;
     cursor: pointer;
+    margin: 0 200px;
+    color: #ffde48;
 }
 
-nav ul li a button {
-    
+
+nav ul li i{  
+    margin:  0 10px; 
     cursor: pointer;
+    color: #fff; 
+    margin-top: 4px;   
+}
+
+.right{
+   margin: 0 45px;
+}
+
+input{
+    border-radius: 10px 0px 0px 10px;
+    background-color: transparent;
+    border: 2px solid rgb(229, 229, 229);
+    height: 25px;
     
     
 }
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    
+}
+
+input, select, textarea{
+    color: #ffffff;
+}
+ 
+
+main{
+    margin: 54px 199px;
+}
+
+h2{
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+p{
+    color: #d8d8d8;
+}
+
 
