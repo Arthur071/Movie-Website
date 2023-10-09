@@ -77,12 +77,12 @@ main{
     margin: 54px 199px;
 }
 
-h2{
+.introduction h2{
     font-weight: 500;
     margin-bottom: 25px;
 }
 
-p{
+.intro p{
     color: #d8d8d8;
 }
 
