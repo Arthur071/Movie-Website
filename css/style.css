@@ -61,14 +61,7 @@ nav ul li i{
    margin: 0 45px;
 }
 
-input{
-    border-radius: 10px 0px 0px 10px;
-    background-color: transparent;
-    border: 2px solid rgb(229, 229, 229);
-    height: 25px;
-    
-    
-}
+
 
 ::placeholder {
     color: rgb(255, 255, 255);
