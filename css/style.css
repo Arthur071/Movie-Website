@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    background: #060d17;
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -19,7 +19,7 @@ nav {
     align-items: center;
     height: 80px;
     
-    background-image: linear-gradient(315deg, #18134e 0%, #000000 74%);  
+    background: #060d17;  
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(203, 203, 255);
+    color: rgb(245, 245, 255);
     font-size: 1.02rem;
 }
 
