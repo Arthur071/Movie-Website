@@ -102,9 +102,7 @@ main{
 }
 
 .platforms img:hover{
-    transform: scale(1.07) ;
-    
-    
+    transform: scale(1.07) ; 
 }
 
 .sec-navbar{
