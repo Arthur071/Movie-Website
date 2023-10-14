@@ -93,7 +93,7 @@ nav ul li i {
     font-weight: 600;
     line-height: 70px;
     width: 54%;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .btn{
@@ -121,4 +121,20 @@ nav ul li i {
     text-decoration: none;
 }
 
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.para p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    
+    color: #b2b9c1;
+
+    
+
+}
 
