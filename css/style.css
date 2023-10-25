@@ -146,9 +146,14 @@ main {
     height: 270px;
     border-radius: 10px;
     cursor: pointer;
+    transform: scale(1.03) perspective(200px);
+    cursor: pointer;
+    box-shadow: 0 0 20px -10px rrgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease
 }
 
 .movie-card img:hover {
-
-    opacity: 95%;
+    
+    transform: scale(1.06) perspective(200px);
+    
 }
