@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #060d17;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    background: #060d17;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+}
+
+nav ul li a:hover {
+    color: rgb(245, 245, 255);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin: 0 200px;
+    color: #ffde48;
+}
+
+
+nav ul li i {
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.right {
+    margin: 0 45px;
+}
+
+
+main {
+    margin: 54px 199px;
+}
+
+.introduction h2 {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.intro p {
+    color: #d8d8d8;
+}
+
+
+.sec-navbar {
+    margin-top: 40px;
+
+}
+
+.sec-navbar ul {
+    display: flex;
+}
+
+.sec-navbar ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.sec-navbar h3 a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: rgb(229, 229, 229)
+}
+
+.sec-navbar h3 a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+.movies {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-gap: 25px;
+    grid-template-areas: "double-poster double-poster"
+}
+
+.movie-card img {
+    width: 190px;
+    height: 270px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.03) perspective(200px);
+    cursor: pointer;
+    box-shadow: 0 0 20px -10px rrgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease
+}
+
+.movie-card img:hover {
+    
+    transform: scale(1.06) perspective(200px);
+    
+}
